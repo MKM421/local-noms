@@ -37,9 +37,9 @@ const StyledMenu = withStyles({
 
 const GreenRadio = withStyles({
   root: {
-    color: '#438a14',
+    color: '#000',
     '&$checked': {
-      color: '#438a14',
+      color: '#000',
     },
   },
   checked: {},
