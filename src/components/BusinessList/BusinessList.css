@@ -1,0 +1,39 @@
+#BusinessList {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 23%;
+  max-height: 85vh;
+  overflow-y: scroll;
+  margin-top: 6rem;
+  margin-left: 2em;
+  z-index:9999;
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 680px)  {
+  #BusinessList  {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #BusinessList {
+    position: relative;
+    width: 40%;
+    max-height: 450px;
+    padding: 0 20px;
+    z-index:0;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #BusinessList {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 100%;
+    padding: 0 30px;
+    padding-top: 8em;
+  }
+}

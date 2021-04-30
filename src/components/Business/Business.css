@@ -1,0 +1,113 @@
+.Business {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7px;
+  border-radius: 100px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  background: #fff;
+}
+
+.Business:hover {
+  cursor: pointer;
+  border: 2px solid #000;
+}
+
+.Business .image-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #333;
+  height: 65px;
+  width: 65px;
+  border-radius: 40px;
+}
+
+.Business .image-container img {
+  width:65px;
+  border-radius: 40px;
+}
+
+.Business-information {
+  width: 100%;
+  padding-left: 15px;
+}
+
+.Business-information p {
+  font-size: .88rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+.Business h2 {
+  color: #7f7f7f;
+  font-size: 15px;
+  font-weight: 600;
+  padding-right: 3px;
+  margin-top: .1rem;
+  margin-bottom: .3rem;
+}
+
+.Business .title-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Business .favorite-icon {
+  display: none;
+  fill: #000;
+  float: right;
+  margin: -9px -8px 0;
+  align-self: flex-start;
+}
+
+.Business .PrivateSwitchBase-root-4 {
+  padding:5px;
+}
+
+.Business .MuiIconButton-root .MuiIconButton-label .MuiSvgIcon-root {
+  width: 25px;
+  height: 25px;
+}
+
+.Business-reviews {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+
+.Business-reviews .restaurant-rating {
+  color: #f1d165;
+  font-size: 18px;
+}
+
+.Business-reviews .restaurant-rating .MuiRating-decimal {
+  margin-right: 3px;
+}
+
+.Business-reviews .user-ratings-total {
+  font-size: 11px;
+  color: #bbb;
+}
+
+.Business-information .price-level {
+  display: flex;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.Business-information .price-level .MuiRating-icon {
+  margin-right: -6px;
+}
+
+
+
+@media only screen and (max-width: 680px) {
+  .Business .MuiIconButton-root .MuiIconButton-label .MuiSvgIcon-root {
+    width: 30px;
+    height: 30px;
+  }
+}

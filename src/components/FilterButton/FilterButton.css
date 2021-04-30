@@ -1,0 +1,75 @@
+.filter {
+  margin-left: 15px;
+}
+
+.filter .filter-button {
+  background: #fff;
+  padding: 7px 2px;
+  border: 1px solid #ddd;
+  color: #828282;
+  font-size: 13px;
+  font-weight: 100;
+  border-radius: 20px;
+  text-transform: capitalize;
+  box-shadow: none;
+  min-width: 50px;
+}
+
+.filter .filter-button:hover {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+#filter-menu {
+  margin-top: 8px;
+}
+
+.filter-menu-container {
+  padding: 20px;
+}
+
+#radio-list:focus {
+  outline: none;
+}
+
+.filter-menu-item {
+  padding: 0 70px 0px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.filter-menu-item .filter-item-icon {
+  min-width: 25px;
+}
+
+.filter-menu-item .filter-item-icon:hover {
+  cursor: pointer;
+  stroke: #000;
+}
+
+.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+  font-family: 'Proxima Nova', Arial, sans-serif;
+  font-size: .8em;
+  font-weight: 100;
+  margin-left: 0px;
+  color: #828282;
+}
+
+.filter-label-text .PrivateSwitchBase-root-4 {
+  padding: 5px;
+  margin-left:9px;
+}
+
+.apply-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.apply-button-container .apply-button {
+  color: #000;
+  font-weight: 600;
+  margin-right:5px;
+  font-size: .8em;
+  text-transform: capitalize;
+}
