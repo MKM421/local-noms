@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Finding Noms",
+  "name": "Search for nearby restaurants",
   "icons": [
     {
       "src": "favicon.ico",

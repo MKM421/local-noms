@@ -3,9 +3,6 @@ import './GoogleMap.css';
 import '../Business/Business.css';
 import Button from '@material-ui/core/Button';
 import FormatListBulletedIcon from '@material-ui/icons/FormatListBulleted';
-import Rating from '@material-ui/lab/Rating';
-import { withStyles } from '@material-ui/core/styles';
-import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 
 

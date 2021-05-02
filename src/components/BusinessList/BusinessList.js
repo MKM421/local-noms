@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import RoomOutlinedIcon from '@material-ui/icons/RoomOutlined';
-import Skeleton from '@material-ui/lab/Skeleton';
 import './BusinessList.css';
 import Business from '../Business/Business';
 
